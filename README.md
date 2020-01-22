@@ -1,3 +1,3 @@
-# rest-jest
+# rest-jest-starter
 
 UNDER DEVELOPMENT
