@@ -1,3 +1,3 @@
-# lerna-next-rest-lib-starter
+# rest-jest
 
 UNDER DEVELOPMENT
