@@ -1,3 +1,3 @@
-# rest-jest-starter
+# rest-client-jest-starter
 
 UNDER DEVELOPMENT
