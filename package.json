@@ -1,11 +1,12 @@
 {
-  "name": "rest-jest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "jest": "^25.1.0"
   },
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^2.2.1"
+  }
 }
