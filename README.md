@@ -9,9 +9,8 @@ SOFTSPIDERS
 - rest
 - jest
 - fetch
-- isomorphic
+- isomorphic-fetch
 - node
-- node-fetch
 - starter
 - template
 
