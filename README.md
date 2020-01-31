@@ -28,10 +28,6 @@ SOFTSPIDERS
 - [Test example in JavaScript in Jest](https://github.com/softspiders/jest)
 
 ---
-## Direct descendants
-- [Jfront authorization starter](https://github.com/softspiders/jfront-oauth-starter)
-
----
 
 ## Install
 
