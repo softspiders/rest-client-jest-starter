@@ -8,6 +8,7 @@ SOFTSPIDERS
 
 - rest
 - jest
+- isomorphic
 - isomorphic-fetch
 - starter
 - template
@@ -21,7 +22,6 @@ SOFTSPIDERS
 ---
 
 ## Direct ancestors
-- [Minimalistic node-fetch starter](https://github.com/softspiders/node-fetch-starter)
 - [Test example in JavaScript in Jest](https://github.com/softspiders/jest)
 
 ---
@@ -29,8 +29,7 @@ SOFTSPIDERS
 ## Install
 
 ```
-npm install --save isomorphic-fetch es6-promise -g
-npm install --save-dev jest -g
+npm i
 ```
 
 ---
