@@ -38,7 +38,7 @@ npm i
 
 ```
 In Node.js: node scripts
-In brower console: getRequest('https://jsonplaceholder.typicode.com/posts/1')
+In browser console: getRequest('https://jsonplaceholder.typicode.com/posts/1')
 ```
 
 ## Running test
