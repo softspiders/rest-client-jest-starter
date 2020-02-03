@@ -37,7 +37,8 @@ npm i
 ## Run
 
 ```
-node scripts
+In Node.js: node scripts
+In brower console: getRequest('https://jsonplaceholder.typicode.com/posts/1')
 ```
 
 ## Running test
