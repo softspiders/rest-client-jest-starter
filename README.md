@@ -7,6 +7,7 @@ SOFTSPIDERS
 ## Feature tags
 
 - browser
+- client
 - cross-fetch
 - isomorphic
 - jest
