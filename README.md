@@ -46,7 +46,8 @@ In browser console: getRequest('https://jsonplaceholder.typicode.com/posts/1')
 ## Running test
 
 ```sh
-npm run test
+In first command prompt run server: npm start
+In second command prompt run tests: npm run test
 ```
 
 ---
