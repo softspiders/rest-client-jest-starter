@@ -37,17 +37,17 @@ npm i
 ---
 
 
-## Run
+## Run in browser
 
-Open *index.html* with your browser.
-In browser console execute:
+Open *index.html* with your browser. In browser console execute:
 
 ```
 getRequest('https://jsonplaceholder.typicode.com/posts/1')
 ```
+
 See the results in the console.  
 
-## Running test
+## Running integration tests
 
 In first command prompt run server: 
 
