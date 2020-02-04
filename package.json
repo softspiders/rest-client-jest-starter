@@ -5,18 +5,18 @@
   "main": "scripts.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start:server": "node server.js"
   },
   "keywords": [
-  "browser",
-  "cross-fetch",
-  "express",
-  "isomorphic",
-  "jest",
-  "rest",
-  "softspiders",
-  "starter",
-  "template"
+    "browser",
+    "cross-fetch",
+    "express",
+    "isomorphic",
+    "jest",
+    "rest",
+    "softspiders",
+    "starter",
+    "template"
   ],
   "author": "Danila Asoyan (https://github.com/Danilkashtan), Alexander Lapygin (https://github.com/AlexanderLapygin)",
   "license": "MIT",

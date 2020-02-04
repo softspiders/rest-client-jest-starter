@@ -13,7 +13,4 @@ function getRequest(url) {
   });
 };
 
-const url = 'http://ibt.rusfinance.ru/ICA/api/bank/news/1';
-//const url = 'https://my-json-server.typicode.com/typicode/demo/posts';
-
-isBrowser ? getRequest(url) : exports.getRequest = getRequest;
+isBrowser ? getRequest('https://jsonplaceholder.typicode.com/posts/1') : exports.getRequest = getRequest;
