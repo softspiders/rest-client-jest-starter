@@ -8,6 +8,7 @@ SOFTSPIDERS
 
 - browser
 - cross-fetch
+- express
 - jest
 - isomorphic
 - rest
