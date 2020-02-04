@@ -19,7 +19,7 @@ SOFTSPIDERS
 ## Authors
 
 - [Danila Asoyan](https://github.com/Danilkashtan)
-- [Alexander Lapygin <alexanderlapygin@gmail.com>](https://github.com/AlexanderLapygin)
+- [Alexander Lapygin](https://github.com/AlexanderLapygin)  <<alexanderlapygin@gmail.com>>
 
 ---
 
