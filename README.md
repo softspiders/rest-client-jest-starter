@@ -8,8 +8,8 @@ SOFTSPIDERS
 
 - browser
 - cross-fetch
-- jest
 - isomorphic
+- jest
 - rest
 - starter
 - template
