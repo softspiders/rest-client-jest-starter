@@ -8,7 +8,6 @@ SOFTSPIDERS
 
 - browser
 - cross-fetch
-- express
 - jest
 - isomorphic
 - rest
@@ -40,6 +39,7 @@ npm i
 ## Run
 
 ```
+Open index.html with your browser.
 In browser console: getRequest('https://jsonplaceholder.typicode.com/posts/1')
 ```
 
