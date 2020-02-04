@@ -1,24 +1,19 @@
-
-//Test url for get, put, delete requests in browser: 'https://jsonplaceholder.typicode.com/posts/1'
-//Test url for post requests in browser: 'https://jsonplaceholder.typicode.com/posts'
-//Test url for get requests in Node.js: 'http://ibt.rusfinance.ru/ICA/api/bank/news/1'
-
-require('es6-promise').polyfill();
-require('isomorphic-fetch');
+const isBrowser = typeof window !== "undefined" && window.fetch
+const fetch = isBrowser ? window.fetch : require("cross-fetch");
 
 function getRequest(url) {
 	return fetch(url)
 		.then(response => response.json())
-		.then(json =>{ 
+		.then(json => {
 			console.log(json);
 			return json;
 		})
 		.catch(err => {
-	    console.log('error:')
-	    console.log(err)
+	    console.log('error:' + err)
   });
 };
 
-getRequest('http://ibt.rusfinance.ru/ICA/api/bank/news/1');
+const url = 'http://ibt.rusfinance.ru/ICA/api/bank/news/1';
+//const url = 'https://my-json-server.typicode.com/typicode/demo/posts';
 
-exports.getRequest = getRequest;
+isBrowser ? getRequest(url) : exports.getRequest = getRequest;

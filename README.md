@@ -6,10 +6,11 @@ SOFTSPIDERS
 
 ## Feature tags
 
-- rest
+- browser
+- cross-fetch
 - jest
 - isomorphic
-- isomorphic-fetch
+- rest
 - starter
 - template
 
@@ -17,7 +18,8 @@ SOFTSPIDERS
 
 ## Authors
 
-[Danila Asoyan](https://github.com/Danilkashtan)
+- [Danila Asoyan](https://github.com/Danilkashtan)
+- [Alexander Lapygin <alexanderlapygin@gmail.com>](https://github.com/AlexanderLapygin)
 
 ---
 
@@ -37,7 +39,6 @@ npm i
 ## Run
 
 ```
-In Node.js: node scripts
 In browser console: getRequest('https://jsonplaceholder.typicode.com/posts/1')
 ```
 
