@@ -25,7 +25,7 @@ SOFTSPIDERS
 ---
 
 ## Direct ancestors
-- [Test example in JavaScript in Jest](https://github.com/softspiders/jest)
+- [express-rest-starter](https://github.com/softspiders/express-rest-starter)
 
 ---
 
