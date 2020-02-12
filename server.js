@@ -14,3 +14,15 @@ app.listen(port, (err) => {
 app.get("/api", (req, res) => {
 	res.send({method: "GET"})
 });
+
+app.post("/api", (req, res) => {
+	res.send({method: "POST"})
+});
+
+app.put("/api/:id", (req, res) => {
+	res.send({method: "PUT"})
+});
+
+app.delete("/api/:id", (req, res) => {
+	res.send({method: "DELETE"})
+});
