@@ -13,4 +13,51 @@ function getRequest(url) {
   });
 };
 
-isBrowser ? getRequest('https://jsonplaceholder.typicode.com/posts/1') : exports.getRequest = getRequest;
+function postRequest(url) {
+	return fetch(url, {
+	    method: 'POST' 
+	  })
+	  .then(response => response.json())
+	  .then(json => {
+			console.log(json);
+			return json;
+		})
+		.catch(err => {
+	    console.log('error:' + err)
+  });
+};
+
+function putRequest(url) {
+	return fetch(url, {
+	    method: 'PUT' 
+	  })
+	  .then(response => response.json())
+	  .then(json => {
+			console.log(json);
+			return json;
+		})
+		.catch(err => {
+	    console.log('error:' + err)
+  });
+};
+
+function deleteRequest(url) {
+	return fetch(url, {
+	    method: 'DELETE' 
+	  })
+	  .then(response => response.json())
+	  .then(json => {
+			console.log(json);
+			return json;
+		})
+		.catch(err => {
+	    console.log('error:' + err)
+  });
+};
+
+if(!isBrowser) {
+	exports.getRequest = getRequest;
+	exports.postRequest = postRequest;
+	exports.putRequest = putRequest;
+	exports.deleteRequest = deleteRequest;
+}
