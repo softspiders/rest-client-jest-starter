@@ -40,7 +40,10 @@ npm i
 
 ```
 Open index.html with your browser.
-In browser console: getRequest('https://jsonplaceholder.typicode.com/posts/1'), postRequest('https://jsonplaceholder.typicode.com/posts'), putRequest('https://jsonplaceholder.typicode.com/posts/1') or deleteRequest('https://jsonplaceholder.typicode.com/posts/1')
+In browser console: getRequest('https://jsonplaceholder.typicode.com/posts/1'),
+ 					postRequest('https://jsonplaceholder.typicode.com/posts'),
+ 				    putRequest('https://jsonplaceholder.typicode.com/posts/1') or
+ 				    deleteRequest('https://jsonplaceholder.typicode.com/posts/1')
 ```
 
 ## Running test
