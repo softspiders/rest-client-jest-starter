@@ -24,11 +24,6 @@
 
 ---
 
-## Direct ancestors
-- [express-rest-starter](https://github.com/softspiders/express-rest-starter)
-
----
-
 ## Install
 
 ```
